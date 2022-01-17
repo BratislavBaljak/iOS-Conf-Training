@@ -13,6 +13,7 @@ import CoreData
 import KeychainSwift
 import SQLite3
 import Alamofire
+import SideMenu
 
 
 class SensitiveDataController: UIViewController {
@@ -81,6 +82,7 @@ class SensitiveDataController: UIViewController {
         let URL_USER_REGISTER = "http://ror.mstg.mobi:8080/signup"
 
         //creating parameters for the post request
+
         let parameters: Parameters=[
             
             "password":"test",
